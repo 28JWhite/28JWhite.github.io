@@ -1,75 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>
-        28JWhite
-    </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeMod</title>
     <style>
         body {
-            font-family: 'Freckle Face';
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: whitesmoke;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            padding: 0;
+
+        }
+
+        nav ul li {
+            margin: 10px 20px 10px 20px;
+            background-color: antiquewhite;
+            padding: 10px;
+            border-width: 5px;
+            border-style: ridge;
+            border-radius: 10px;
+            transition: 0.75s;
+            border-color: darkslateblue;
+        }
+
+        article {
+            background-color: antiquewhite;
+            opacity: 75%;
+            width: 75%;
+            padding: 0px 10px;
+        }
+
+        article {
+            border-width: 5px;
+            border-style: ridge;
+            border-color: darkslateblue;
+            border-radius: 10px;
+        }
+
+        nav ul li:hover {
+            background-color: azure;
+            margin: 0px;
+            padding: 20px 30px 20px 30px;
+            transition: 0.75s;
+            font-size: 25px;
         }
 
         h1 {
+            margin: 20px 20px;
+        }
+
+        body {
+            background-image: url("34552.webp");
+            background-color: black;
+            background-size: 1900px 1000px;
+        }
+
+        article {
             text-align: center;
         }
 
-        .freckle-face-regular {
-            font-family: "Freckle Face", system-ui;
-            font-weight: 400;
-            font-style: normal;
+        footer {
+            text-align: center;
         }
 
-        section {
-            width: 80%;
-            margin: auto;
-            border: 2px solid black;
-            padding: 10px;
+        article p {
+            font-size: 20px;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>
-            28JWhite
-        </h1>
-        <nav>
-            <details>
-                <summary>
-                    Navigation Bar
-                </summary>
-                <ul>
-                    <li><a href="index.html">Home Page</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gettoschool7/index.html">Game</a></li>
-                    <li><a href="Https://www.youtube.com">YouTube</a></li>
-                    <li><a href="index.html">Old Page</a></li>
-                </ul>
-            </details>
-        </nav>
-    </header>
-    <section>
-        <article>
-            <h2>Welcome to my webpage!!</h2>
-            <h3> <time datetime="2026-04-07">April 7th 2026</time> </h3>
-        </article>
-        <h4>
-            <p>Here's some stuff about my webpage.</p>
-        </h4>
-        <p>I'd describe myself as a very friendly person and easy to get along with,<br> I like reading, gaming, and
-            music,
-            and I would consider myself somewhat advanced in reading for my grade level.</p>
-        <article>
-            <h2>Other Stuff</h2>
-            <p>I have two dogs, Paiseley and Oakley, my nana has a dog aswell that I see often named Macy. <br> I'm
-                currently experimenting with RPG Maker seeing what I can do. (Nav Bar Game)</p>
-        </article>
-    </section>
-    <footer>Made by Jayden White 2026 <br><br> <img src="favicon.ico"></footer>
+    <h1>
+        PokeMod
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="other_projects.html">Other Projects</a></li>
+            <li><a href="sign up.html">Hi</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2>About PokeMod
+        </h2>
+        <p><i>PokeMod is a work in progress idea of allowing people to upload custom Pokemon, which people can download and
+            add to their own games. In the future I also want to add the ability to add 3D Pokemon but currently I feel
+            that it is too far out of reach and that there is not enough demand for it. Development began April 28th, 2026.</i>
+        </p>
+    </article>
+    <footer>
+        &copy; 2026
+        <p><b>Background Image from <a href="https://wallpapercg.com/media/ts_orig/34552.webp">wallpapercg</a></b></p>
+    </footer>
 </body>
 
 </html>
