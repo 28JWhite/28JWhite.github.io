@@ -1,0 +1,8 @@
+[
+null,
+{"id":1,"expanded":false,"name":"Kyle's House","order":2,"parentId":5,"scrollX":0,"scrollY":0,"quick":false},
+{"id":2,"expanded":false,"name":"Home","order":3,"parentId":5,"scrollX":641.6,"scrollY":358.8,"quick":false},
+{"id":3,"expanded":true,"name":"Workshop District","order":4,"parentId":0,"scrollX":0,"scrollY":0,"quick":false},
+{"id":4,"expanded":false,"name":"Workshop","order":5,"parentId":3,"scrollX":0,"scrollY":0,"quick":false},
+{"id":5,"expanded":true,"name":"Home District","order":1,"parentId":0,"scrollX":583.2727272727273,"scrollY":320.3636363636364,"quick":false}
+]
